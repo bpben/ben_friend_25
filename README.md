@@ -19,19 +19,28 @@ The first two notebooks can be run in Github Codespaces.  The SFT notebook is de
 * You should be able to run the first cell.  If not, refresh your browser.  If that doesn't work, try the "Use as template" portion again.
 * Follow the steps below to download the required models to the codespace
 
+_NOTE_: Codespaces is finicky, 
+
+### Local setup
+* I recommend you use VSCode with Jupyter notebook support extension
+* Install the [pixi](https://pixi.sh/latest/) environment manager
+* Install [ollama](https://ollama.com/)
+* In this directory run `pixi install`
+* Open the first notebook (in-context-learning)
+* In the top right, ensure the pixi environment `default` (Python 3.10) kernel is selected
+* Follow the steps below to download the required models
+
 ### Downloading the required models
+Ollama will be used to download the required models.  If you are using Codespaces, you will need to open a new terminal to run these commands.
 
+For notebook 1 and 2 you will just need the following models:
 
-in the top right of this repository.  Once you click that, a devcontainer should start up.  You will need to wait a few minutes and potentially refresh your browser to have a working environment.
+```
+ollama pull llama3.2:1b-text-q5_K_S
+ollama pull qwen2.5:1.5b
+```
 
-### Downloading models
+For notebook 3, you will need this model.  Note, this is too big to fit in the basic Codespaces instances, so plan to run this locally instead.
 
-
-
-
-There should be a button that says "Use as Template" in the repository.  Once you click tha
-
-I use [pixi](https://pixi.sh/latest/) as the environment manager for the tutorial section.  You will need to follow setup instructions there to install.
-
-For Linux/Mac OS: `curl -fsSL https://pixi.sh/install.sh | sh`
+`ollama pull qwen2.5:7b`
 
