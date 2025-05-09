@@ -19,7 +19,7 @@ The first two notebooks can be run in Github Codespaces.  The SFT notebook is de
 * You should be able to run the first cell.  If not, refresh your browser.  If that doesn't work, try the "Use as template" portion again.
 * Follow the steps below to download the required models to the codespace
 
-_NOTE_: Codespaces is finicky, 
+_NOTE_: Codespaces is finicky, you may need to refresh your browser a couple times.
 
 ### Local setup
 * I recommend you use VSCode with Jupyter notebook support extension
