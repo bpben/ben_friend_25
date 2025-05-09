@@ -2,7 +2,7 @@
 This directory contains materials from the Ben Needs a Friend tutorial given at ODSC East 2025.
 
 ## Contents
-[Slides]()
+[Slides](https://docs.google.com/presentation/d/1w6gT7euYzIGRJIr60SXdX_3Kl8GCmK4o2gWikes-v0Q/edit?usp=sharing)
 `ben-friend-in-context-learning`: Introduction to using LLMs with llamabot and basic in context learning methods.  Can be run in Codespaces.
 `ben-friend-rag`: Example for Retrieval-Augmented Generation.  Can be run in Codespaces.
 `ben-friend-sft`: Supervised Fine-Tuning of the Llama3.2 model using Unsloth.  **Designed to be run in Google Colab.**
