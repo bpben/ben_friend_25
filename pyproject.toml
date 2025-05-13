@@ -3,7 +3,7 @@ authors = [{name = "bpben", email = "yksrotab@gmail.com"}]
 name = "tutorial_25"
 requires-python = ">= 3.10"
 version = "0.1.0"
-dependencies = ["llamabot[rag]>=0.11.2,<0.12", "llamabot[ui]"]
+dependencies = ["llamabot[rag]==0.11.2", "llamabot[ui]==0.11.2"]
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
@@ -28,6 +28,7 @@ ipywidgets = "==7.7.1"
 sentence-transformers = "==2.5.1"
 accelerate = ">=1.5.2,<2"
 lancedb = "==0.21.1"
+pydantic = "2.10.6.*"
 
 [tool.setuptools]
 py-modules = []
